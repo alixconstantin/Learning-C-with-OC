@@ -1,13 +1,12 @@
 /*
-Bibliothèques de fonctionnalités ( directives de préprocesseur )
+*	Bibliothèques de fonctionnalités ( directives de préprocesseur )
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 
 /*
-C'est par la fonction main que le programme commence
-Les étapes a l'intérieur d'une fonction sont appelé instructions
+*	C'est par la fonction main que le programme commence
+*	Les étapes a l'intérieur d'une fonction sont appelé instructions
 */
 int	main(void)
 {
@@ -15,7 +14,8 @@ int	main(void)
 	return (0);
 }
 
-/*	Le système des commentaires est similaire a Javascript 
+/*
+*	Le système des commentaires est similaire a Javascript 
 *	\n  retour à la ligne (= "Entrée") ;
 *	\t  tabulation
 *	Pour compiler classiquement  avec le terminal comme un BG c'est :

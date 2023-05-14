@@ -1,14 +1,24 @@
-#include <stdio.h> 			     // Inclut des bibliothèques de fonctionnalités  ( directives de préprocesseur )
+/*
+Bibliothèques de fonctionnalités ( directives de préprocesseur )
+*/
+
+#include <stdio.h>
 #include <stdlib.h>
 
-int main()				 		 // C'est par la fonction main que le programme commence
+/*
+C'est par la fonction main que le programme commence
+Les étapes a l'intérieur d'une fonction sont appelé instructions
+*/
+int	main(void)
 {
-	printf("Hello world \n");    // instructions
-	return 0;
+	printf("Hello world \n");
+	return (0);
 }
 
-//  Le système des commentaires est similaire a Javascript "//"  "/* */"
-// 	\n  retour à la ligne (= "Entrée") ;
-//  \t  tabulation
-//  Pour compiler classiquement  avec le terminal comme un BG c'est : gcc monFichier.c -o monFichier ( ou autre mot )
-//  Puis pour l'exectuter, sur le chemin courant : ./monFichier 
+/*	Le système des commentaires est similaire a Javascript 
+*	\n  retour à la ligne (= "Entrée") ;
+*	\t  tabulation
+*	Pour compiler classiquement  avec le terminal comme un BG c'est :
+*	gcc monFichier.c -o monFichier ( ou autre mot )
+*	Puis pour l'executer, sur le chemin courant : ./monFichier
+*/

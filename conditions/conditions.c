@@ -6,7 +6,7 @@
 * && (ET) / || (OU) / ! (NON)
 * int majeur = age >=18 renvoie 0 ( faux ) ou 1 ( vrai )
 */
-void	ft_is_major(void)
+void	ft_is_major(int age)
 {
 	if (age >= 18)
 	{
@@ -24,6 +24,9 @@ void	ft_is_major(void)
 
 int	main(void)
 {
-	ft_is_major();
+	int	age;
+
+	age = 19;
+	ft_is_major(19);
 	return (0);
 }

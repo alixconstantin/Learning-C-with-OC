@@ -2,8 +2,8 @@
 
 int	main(int argc, char *argv[])
 {
-	int number;
-	int *my_pointer;
+	int	number;
+	int	*my_pointer;
 
 	my_pointer = &number;
 	number = 42;
